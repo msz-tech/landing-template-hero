@@ -1,0 +1,36 @@
+/* ===== Base Styles ===== */
+:root {
+  --primary: #0d6efd;
+  --secondary: #6c757d;
+  --light-bg: #f8f9fa;
+  --dark-bg: #212529;
+  --text-color: #212529;
+  --font-main: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+  background-color: var(--light-bg);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-radius: 12px;
+}
