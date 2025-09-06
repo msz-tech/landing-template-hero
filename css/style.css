@@ -34,3 +34,29 @@ body {
   max-width: 100%;
   border-radius: 12px;
 }
+/* ===== Footer ===== */
+.footer {
+  background-color: var(--primary); /* tu peux mettre #003566 directement si tu veux */
+  color: var(--text-inverse);
+}
+
+.footer-link {
+  color: var(--text-inverse);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--secondary-light);
+}
+
+.footer-social {
+  color: var(--text-inverse);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social:hover {
+  color: var(--secondary-light);
+}
+
